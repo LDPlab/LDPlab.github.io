@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+  <head>
+    <!-- Meta -->
+    <title>UW LDP Lab</title>
+    <meta name='viewport' content='width=device-width,initial-scale=1.0'/>
+
+    <!-- Fonts -->
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Delius+Unicase'>
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='{{ site.baseurl }} /assets/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='{{ site.baseurl }} /assets/css/style.css'/>
+  </head>
+
+  <body>
+
+    <!-- site header -->
+    <div class='page-header d-none d-md-block'>
+      <div class='row'>
+        <div class='col-md-5 col-sm-12'>
+          <a href='/'>
+            <img src='{{ site.baseurl }}/assets/images/logo.png' style='position: relative; width: 100%; padding: 20px 0;'/>
+          </a>
+        </div>
+        <div class='col-md-7 col-sm-12'>
+          <div class='div20 hidden-sm'></div>
+          <a href='/' style='text-decoration:none'>
+            <div class='title purple'>{{ site.title }}</div>
+          </a>
+          <div class='purple'>{{ site.subtitle}}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- navigation -->
+    <nav class='navbar navbar-expand-md navbar-light bg-light'>
+      <span class='navbar-bran'>
+        <a href='/'>
+          <img class='d-md-none' style='height: 80px; padding-top: 2px;' src='{{ site.baseurl }} /assets/images/logo.png'/> <!-- TODO -->
+        </a>
+      </span>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+        <ul class='navbar-nav mx-auto'>
+          {% for link in site.data.navigation %}
+            {% if link.dropdown %}
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='{{ link.url }}' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>{{ link.title }}</a>
+              <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
+                {% for sublink in link.dropdown %}
+                  <a class='dropdown-item' href='{{ sublink.url }}'>{{ sublink.title }} <!-- }<span class="sr-only">(current)</span> --></a>
+                  {% if forloop.index != forloop.length %}
+                  <div class="dropdown-divider"></div>
+                 {% endif %}
+                {% endfor %}
+              </div>
+            </li>
+            {% else %}
+            <li class='nav-item'>   
+              <a class='nav-link' href='{{ link.url }}'>{{ link.title }}</a>
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- page title (e.g., What do we study?) -->
+    {% if page.title %}
+      <div class='card card-body bg-faded bg-light page-title'>
+        {{ page.title }}
+      </div>
+    {% else %}
+      <div class='gray-line'></div>
+    {% endif %}
+
+    <!-- page content -->
+    <div class='content'>
+      {{ content }}
+    </div>
+
+    <!-- site footer -->
+    <div class='footer' style='margin-top: 60px; margin-bottom: -60px; font-size: 12px'>
+      <div class='gray-line'></div>
+        <div style='padding: 8px 10px 0; word-break: normal;'><strong>{{ site.title }} | {{ site.subtitle }} | (206) 616-2866</strong></div>
+    </div>
+
+  </body>
+
+  <footer>
+    <!-- jQuery -->
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+
+    <!-- JavaScript -->
+    <script type='text/javascript' src='{{ site.baseurl }}/assets/js/bootstrap.min.js'></script>
+    <!-- <script type='text/javascript' src='{{ site.baseurl }}/assets/js/main.js'></script> -->
+  </footer>
+
+</html>

@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-metadata
+.DS_store
+
+# local files
+launch.sh
+todo.list
+assets/images/unused/*

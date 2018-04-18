@@ -1,0 +1,80 @@
+current:
+  - name: Dr. Akira Omaki
+    role: Principle Investigator
+    website: https://linguistics.washington.edu/people/akira-omaki
+    photo: ao.jpg
+
+  - name: Ian Rigby
+    role: Lab Manager/Research Assistant (2017-2018)
+    email: ianrigby@uw.edu
+    photo: ir.jpg
+
+  - name: Naomi Tachikawa Shapiro
+    role: Graduate Student
+    website: http://tsnaomi.net
+    email: tsnaomi@uw.edu
+    photo: nts.jpg
+
+  - name: Brent Woo
+    role: Graduate Student
+    website: http://brentwoo.com/
+    cv: https://drive.google.com/file/d/0BygUZQ2ZoGnNekZJWWZ0Z2x2YVk/view
+    email: bwoo@uw.edu
+    photo: bw.jpg
+
+  - name: Taylor Carrasco-Hermerding
+    role: Graduate Student
+    cv: http://taylorcarrasco.weebly.com/uploads/6/2/4/0/62407885/tc_cv.pdf
+    email: hermet@uw.edu
+    photo: tch.jpg
+
+  - name: Marina Oganyan
+    role: Post-Doc
+    email: marina0@uw.edu
+    photo: mo.jpg
+
+alumni:
+  - name: Alli Germain
+    role: Graduate Student
+    email: agermain@uw.edu
+    photo: ag.jpg
+
+  - name: Anthony Yacovone
+    role: Lab Manager/Research Assistant (2016-2017)
+    photo: ay.jpg
+
+  - name: Anna Kunz
+    role: Research Assistant
+    email: kunza2@uw.edu
+    photo: ak.jpg
+
+  - name: JP Reddy
+    role: Summer Intern (2017)
+    email: JP.Reddy@lakesideschool.org
+    photo: jpr.jpg
+
+collaborators:
+  - name: Brian Dillon
+    institution: UMass, Amherst
+    website: https://blogs.umass.edu/bwdillon/
+
+  - name: Marina Bedny
+    institution: Johns Hopkins University
+    website: http://pbs.jhu.edu/directory/marina-bedny/
+
+  - name: Nazbanou Nozari
+    institution: Johns Hopkins University
+    website: http://nazbanou.net/
+
+  - name: Julie Franck
+    institution: University of Geneva, Switzerland
+    website: https://www.unige.ch/fapse/psycholinguistique/equipes/devlang/membres/franck/
+
+  - name: Tessei Kobayashi
+    institution: NTT Communication Science Laboratories, Japan
+    website: http://www.kecl.ntt.co.jp/icl/ce/member/tessei/e-index.html
+
+  - name: Hiromu Sakai
+    institution: Waseda University, Japan
+    website: http://www.celese.sci.waseda.ac.jp/faculty/sakai
+

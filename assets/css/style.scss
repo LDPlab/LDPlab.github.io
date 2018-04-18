@@ -1,0 +1,396 @@
+---
+---
+
+/* Importing fonts ------------------------------------- */
+
+@font-face {
+    font-family: Open Sans;
+    src: url(../fonts/Open-Sans-regular.ttf);
+}
+
+/* SCSS variables -------------------------------------- */
+
+/* UW brand: https://www.washington.edu/brand/ */
+$uw-font: Open Sans;      /* UW brand */
+$uw-purple: #4b2e83;      /* UW brand purple */
+$uw-gold: #e8e3d3;        /* UW brand gold */
+$uw-met-gold: #85754d;    /* UW brand metallic gold */
+$uw-light-gray: #d9d9d9;  /* UW brand light gray */
+$uw-dark-gray: #444;      /* UW brand dark gray */ 
+
+$text-gray: #666;
+$light-purple: #564A81;
+
+$breakpoint: 780px;   /* for responsiveness */
+
+/* default.html (LAYOUT) ------------------------------- */
+
+html {
+  font-size: 16px;
+  background-color: #fff;
+  // background-image: url('../images/blossoms13.jpg'); /* 4, 5, 11, 13 */
+  background-image: url('../images/blossoms-background.png');
+  background-size: 100% auto;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+}
+
+body {
+  color: $text-gray;
+  font-family: Open Sans;
+  width: 80%; 
+  min-width: $breakpoint;
+  margin: 24px auto 20px;
+  padding-bottom: 80px;
+  border: solid $uw-light-gray 1px;
+  -webkit-box-shadow: 0 0 5px $uw-light-gray;
+    box-shadow: 0 0 5px $uw-light-gray;
+}
+
+.page-header {
+  padding: 0 20px;  /* TODO */
+}
+
+.title {
+  /*padding-top: 20px;*/
+  font-size: 30px;
+}
+
+.page-title {
+  font-size: 22px;
+  text-align: center;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  z-index: 999;
+}
+
+.content {
+  padding: 30px;
+}
+
+.footer {
+  text-align: center;  /* TODO */
+}
+
+/* navigation.html (INCLUDE) --------------------------- */
+
+.navbar {
+  background-color: #fff !important;
+}
+
+.dropdown-menu {
+  margin-top: 8px;
+  border-color: $uw-light-gray;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link,
+.dropdown-item {
+  color: $text-gray !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  color: $uw-dark-gray !important;
+}
+
+.dropdown-item:active {
+  background-color: #F8F9FA; /* Bootstrap gray */
+}
+
+/* index.html (PAGE) ----------------------------------- */
+
+// .welcome {
+//   font-family: Delius Unicase;
+//   text-align: center;
+//   font-size: 46px;
+// }
+
+/* page.html (LAYOUT) ---------------------------------- */
+
+.paw-tile {
+  background-image: url('../images/paw-trail.jpg');
+  background-size: 60%;
+  background-repeat: repeat-y;
+}
+
+/* visit.html (PAGE) ----------------------------------- */ 
+
+.visit-container {
+  padding: 0 80px
+}
+
+.sect-box {
+  border-width: 6px 4px;
+  border-style: solid dashed;
+  padding: 20px !important;
+  margin-bottom: 20px;
+  border-color: $uw-purple;
+}
+
+.sect-box:nth-child(even) {
+  border-color: $uw-gold;
+}
+
+.sect-box li {
+  padding-bottom: 20px;
+}
+
+/* general CSS ----------------------------------------- */
+
+.btn-purple {
+  color: $uw-purple !important;
+  font-size: 20px;
+  border: solid $uw-purple 2px;
+  border-radius: 4px;
+  padding: 18px 10%;
+  text-decoration: none !important;
+  white-space: normal;
+}
+
+.btn-purple:hover {
+  color: #fff !important;
+  border-color: $light-purple;
+  background-color: $light-purple;
+}
+
+// .purple-button {
+//   cursor: pointer;
+//   color: $uw-purple !important;
+//   font-size: 20px;
+//   border: solid $uw-purple 2px;
+//   text-decoration: none !important;
+//   border-radius: 4px;
+//   padding: 18px 10%;
+// }
+
+// .purple-button:hover {
+//   color: #fff !important;
+//   background-color: $uw-purple;
+// }
+
+img.full {
+  width: 100%;
+}
+
+.purple-sect {
+  border-left: dashed $uw-purple 4px;
+  margin-bottom: 20px
+}
+
+.gold-sect {
+  border-left: dashed $uw-gold 4px;
+  margin-bottom: 20px;
+}
+
+.div10 {
+  height: 10px;
+}
+
+.div20 {
+  height: 20px;
+}
+
+.div40 {
+  height: 40px;
+}
+
+.div-width-100 {
+  width: 100%;
+}
+
+.content a {
+  text-decoration: underline
+}
+
+.content a,
+.purple {
+  color: $uw-purple;
+}
+
+.uw-dark-gray {
+  color: $uw-dark-gray;
+}
+
+.gray-line {
+  width: 100%;
+  border-bottom: solid $uw-light-gray 1px;
+}
+
+.purple-bar {
+  padding: 20px 20px 0;
+  margin-bottom: 20px;
+  width: 100%;
+  border-bottom: solid $uw-purple 6px;
+}
+
+.pad-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.gray-bar {
+  padding: 20px 20px 0;
+  margin: auto auto 20px;
+  width: 80%;
+  border-bottom: solid $uw-light-gray 3px;
+}
+
+.center {
+  text-align: center;
+}
+
+/* profile.html (INCLUDE) ------------------------------ */
+
+.member-profile {
+  margin: 20px auto;
+}
+
+.member-photo {
+  height: 160px;
+  border-radius: 64px;
+  border: solid #f5f5f5 8px;
+  box-shadow: 1px 1px 6px $uw-light-gray;
+}
+
+.inner-profile {
+  width: 90%;
+  margin-top: -80px;
+  padding-top: 100px;
+  border-right: 1px #f5f5f5 solid;
+  border-bottom: 4px #f5f5f5 solid;
+  border-top: 5px $uw-purple solid;
+  border-radius: 4px;
+  height: 280px;
+}
+
+.collaborator-institution,
+.member-role {
+  color: $uw-dark-gray;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.member-email img {
+  height: 35px; /* TODO: awesome fonts? */
+  margin-bottom: 20px;
+}
+
+.member-links {
+  margin-top: 26px !important;
+  height: 44px !important;
+}
+
+.member-links a {
+  position: relative;
+  text-decoration: none !important;
+}
+
+.member-email img:hover {
+  opacity: .6;
+}
+
+/* --- */
+
+.circle-icon-background {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: auto auto 20px;
+  border-radius: 50px;
+}
+
+.circle-icon-background img {
+  position: relative;
+  height: 100%;
+  margin: auto;
+}
+
+.background-gold {
+  background-color: $uw-gold;
+}
+
+.background-light-purple {
+  background-color: $light-purple;
+}
+
+.background-light-purple img {
+  filter: invert(100%);
+}
+
+/* media queries ----------------------------------------------------------- */
+
+.show-on-mobile-only {
+  display: none;
+}
+
+.hide-on-mobile-only {
+  display: block;
+}
+
+/* mobile only */
+@media (max-width: $breakpoint) {
+
+  body {
+    margin: 0;
+    // width: 100%;
+    min-width: 100%;
+    height: 100%;
+  }
+
+  .show-on-mobile-only {
+    display: block;
+  }
+
+  .hide-on-mobile-only {
+    display: none;
+  }
+
+  .visit-container {
+    padding: 0;
+  }
+
+}
+
+/* snap responsive ------------------------------------- */
+
+// /* not tiny */ 
+// @media (min-width: 630px) {
+
+// }
+
+// /* full screen */
+// @media (min-width: 920px) { 
+//   body {
+//     max-width: 907px;
+//   }
+// }
+
+// /* half < < full */
+// @media (min-width: 630px) and (max-width: 1100px) {
+//   body {
+//     max-width: 877px; /* 624 + 223 + 30 */
+//   }
+// }
+
+// /* half screen */
+// @media (min-width: 630px) and (max-width: 919px) {
+//   body {
+//     max-width: 625px; /* 439 + 156 + 30 */
+//   }
+// }
+
+// /* tiny screen */
+// @media (max-width: 629px) {
+//   body {
+//     width: 100%;
+//   }
+// }
+
+

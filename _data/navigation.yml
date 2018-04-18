@@ -1,0 +1,28 @@
+- title: Home
+  url: /
+
+- title: Parents
+  url: '#'
+  dropdown:
+    - title: What do we study?
+      url: '/what-do-we-study'
+    - title: Visiting the lab
+      url: '/visiting-the-lab'
+    - title: How to participate
+      url: '/participate'
+
+- title: Research
+  url: '#'
+  dropdown:
+    - title: People
+      url: '/people '
+    - title: Methods
+      url: '/methods'
+    - title: Papers
+      url: '/papers'
+
+- title: Directions/Contact Us
+  url: '/contact-us'
+
+- title: Lab Wiki [Internal]
+  url: 'https://sites.google.com/a/uw.edu/ldpwiki/'

@@ -1,0 +1,60 @@
+---
+layout: default
+title: Team LDP
+permalink: /people/
+---
+
+<div class='row' style='text-align: center'>
+  <div class='col-md-9 col-sm-12 col-12' style='margin-bottom: 60px'>
+
+    <h4 class='purple'>Lab Members</h4>
+    <div class='row'>
+      {% for member in site.data.members.current %}
+        <div class='col-md-6 col-sm-12 col-12'>
+          {% include profile.html %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class='div40'></div>
+
+    <h4 class='purple'>Lab Alumni</h4>
+    <div class='row'>
+      {% for member in site.data.members.alumni %}
+        <div class='col-md-6 col-sm-12 col-12'>
+          {% include profile.html %}
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+  <div class='col-md-3 col-sm-12 col-12' style='margin-bottom: 60px'>
+
+    <h4 class='purple'>Collaborators</h4>
+      <br/>
+      <br/>
+      {% for member in site.data.members.collaborators %}
+        <div>
+          <img src='{{ site.url }}/assets/images/paws.jpg' style='height: 60px'/>
+        </div>
+        <a class='collaborator-name' href='{{ member.website }}' style='text-decoration: none;'><strong>{{ member.name }}</strong></a>
+        <div class='collaborator-institution'>{{ member.institution }}</div>
+        <br/>
+        <br/>
+      {% endfor %}
+
+    <div class='div20'></div>
+
+    <div class='mx-auto'>
+      <div class='div-width-100'>
+        <a class='btn btn-purple' href='{{ site.baseurl }}/participate/' role='button'>Participate</a>
+      </div>
+      <br>
+      <div class='div-width-100'>
+        <a class='btn btn-purple' href='{{ site.baseurl }}/contact-us/' role='button'>Contact us</a>
+      </div>
+    </div>
+
+  </div>
+</div>
