@@ -389,6 +389,10 @@ img.full {
     height: 100%;
   }
 
+  .unpad {
+    padding: 0 !important;
+  }
+
   .show-on-mobile-only {
     display: block;
   }
