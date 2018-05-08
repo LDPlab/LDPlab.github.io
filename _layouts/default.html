@@ -48,10 +48,10 @@
           {% for link in site.data.navigation %}
             {% if link.dropdown %}
             <li class='nav-item dropdown'>
-              <a class='nav-link dropdown-toggle' href='{{ site.page_url }}{{ link.url }}' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>{{ link.title }}</a>
+              <a class='nav-link dropdown-toggle' href='{{ site.baseurl }}{{ link.url }}' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>{{ link.title }}</a>
               <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
                 {% for sublink in link.dropdown %}
-                  <a class='dropdown-item' href='{{ site.page_url }}{{ sublink.url }}'>{{ sublink.title }}</a>
+                  <a class='dropdown-item' href='{{ site.baseurl }}{{ sublink.url }}'>{{ sublink.title }}</a>
                   {% if forloop.index != forloop.length %}
                   <div class="dropdown-divider"></div>
                  {% endif %}
@@ -60,10 +60,13 @@
             </li>
             {% else %}
             <li class='nav-item'>   
-              <a class='nav-link' href='{{ link.url }}'>{{ link.title }}</a>
+              <a class='nav-link' href='{{ site.baseurl }}{{ link.url }}'>{{ link.title }}</a>
             </li>
             {% endif %}
           {% endfor %}
+            <li class='nav-item'>
+              <a class='nav-link' href='https://sites.google.com/a/uw.edu/ldpwiki/'>Lab Wiki [Internal]</a>
+            </li>
         </ul>
       </div>
     </nav>

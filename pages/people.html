@@ -7,6 +7,7 @@ permalink: /people/
 <div class='row' style='text-align: center'>
   <div class='col-md-9 col-sm-12 col-12' style='margin-bottom: 60px'>
 
+    <!-- lab members -->
     <h4 class='purple'>Lab Members</h4>
     <div class='row'>
       {% for member in site.data.members.current %}
@@ -18,6 +19,7 @@ permalink: /people/
 
     <div class='div40'></div>
 
+    <!-- lab alumni -->
     <h4 class='purple'>Lab Alumni</h4>
     <div class='row'>
       {% for member in site.data.members.alumni %}
@@ -31,12 +33,13 @@ permalink: /people/
 
   <div class='col-md-3 col-sm-12 col-12' style='margin-bottom: 60px'>
 
+    <!-- collaborators -->
     <h4 class='purple'>Collaborators</h4>
       <br/>
       <br/>
       {% for member in site.data.members.collaborators %}
         <div>
-          <img src='{{ site.url }}/assets/images/paws.jpg' style='height: 60px'/>
+          <img src='{{ site.image_url }}/paws.jpg' style='height: 60px'/>
         </div>
         <a class='collaborator-name' href='{{ member.website }}' style='text-decoration: none;'><strong>{{ member.name }}</strong></a>
         <div class='collaborator-institution'>{{ member.institution }}</div>
