@@ -20,6 +20,7 @@ $uw-dark-gray: #444;      /* UW brand dark gray */
 
 $text-gray: #666;
 $light-purple: #564A81;
+$faint-putple: #e9e2f5;
 
 $breakpoint: 780px;   /* for responsiveness */
 
@@ -28,7 +29,6 @@ $breakpoint: 780px;   /* for responsiveness */
 html {
   font-size: 16px;
   background-color: #fff;
-  // background-image: url('../images/blossoms13.jpg'); /* 4, 5, 11, 13 */
   background-image: url('../images/blossoms-background.png');
   background-size: 100% auto;
   background-repeat: repeat-y;
@@ -48,13 +48,22 @@ body {
     box-shadow: 0 0 5px $uw-light-gray;
 }
 
+.logo {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
 .page-header {
   padding: 0 20px;  /* TODO */
 }
 
-.title {
+.title,
+.title:hover,
+.title:focus {
   /*padding-top: 20px;*/
   font-size: 30px;
+  text-decoration: none;
 }
 
 .page-title {
@@ -72,9 +81,21 @@ body {
 
 .footer {
   text-align: center;  /* TODO */
+  margin-top: 60px;
+  margin-bottom: -60px;
+  font-size: 12px;
+  word-break: normal;
 }
 
-/* navigation.html (INCLUDE) --------------------------- */
+.footer-text {
+  front-weight: bold;
+  padding: 8px 10px 0;
+}
+
+.mobile-logo {
+  height: 80px;
+  padding-top: 2px;
+}
 
 .navbar {
   background-color: #fff !important;
@@ -105,20 +126,22 @@ body {
   background-color: #F8F9FA; /* Bootstrap gray */
 }
 
-/* index.html (PAGE) ----------------------------------- */
-
-// .welcome {
-//   font-family: Delius Unicase;
-//   text-align: center;
-//   font-size: 46px;
-// }
-
 /* page.html (LAYOUT) ---------------------------------- */
 
 .paw-tile {
   background-image: url('../images/paw-trail.jpg');
   background-size: 60%;
   background-repeat: repeat-y;
+}
+
+/* index.html (PAGE) ----------------------------------- */
+
+.welcome {
+  padding-top: 2%;
+}
+
+.front-photo {
+  padding-bottom: 20px;
 }
 
 /* visit.html (PAGE) ----------------------------------- */ 
@@ -141,6 +164,19 @@ body {
 
 .sect-box li {
   padding-bottom: 20px;
+}
+
+/* contact.html (PAGE) --------------------------------- */
+
+.contact-box {
+  background-color: $faint-putple;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+}
+
+.contact-box strong {
+  color: #555;
 }
 
 /* general CSS ----------------------------------------- */
@@ -202,7 +238,11 @@ img.full {
   height: 40px;
 }
 
-.div-width-100 {
+.div45 {
+  height: 45px;
+}
+
+.width-100 {
   width: 100%;
 }
 
@@ -229,6 +269,10 @@ img.full {
   margin-bottom: 20px;
   width: 100%;
   border-bottom: solid $uw-purple 6px;
+}
+
+.pad-0-20 {
+  padding: 0 20px;
 }
 
 .pad-bottom-20 {
@@ -355,6 +399,12 @@ img.full {
 
   .visit-container {
     padding: 0;
+  }
+
+  .welcome {
+    width: 120%;
+    padding: 0;
+    margin-left: -8.5%;
   }
 
 }

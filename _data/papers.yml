@@ -1,4 +1,10 @@
+last-updated: '7 May 2018'
+
 downloadable:
+  - citation: 'Nozari, N. & Omaki, A. (in press). Syntactic production is not independent of inhibitory control: Evidence from agreement attraction errors. In C. Kalish, M. Rau, J. Zhu, & T. Rogers (Eds.), Proceedings of the 40th Annual Conference of the Cognitive Science Society Austin, TX: Cognitive Science Society.'
+    links:
+      pdf: '/assets/papers/Nozari&Omaki-CogSci2018-Final-1.pdf'
+
   - citation: 'Clothier, K., Nambu, S., Ono, H., & Omaki, A. (2017). Cross-situational learning of novel anaphors. Proceedings of the 39th Annual Cognitive Science Society (CogSci 2017).'
     links:
       pdf: '/assets/papers/clothier_etal17_CogSci.pdf'

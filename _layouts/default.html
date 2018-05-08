@@ -20,13 +20,13 @@
       <div class='row'>
         <div class='col-md-5 col-sm-12'>
           <a href='/'>
-            <img src='{{ site.baseurl }}/assets/images/logo.png' style='position: relative; width: 100%; padding: 20px 0;'/>
+            <img class='logo' src='{{ site.baseurl }}/assets/images/logo-textless.png'/>
           </a>
         </div>
         <div class='col-md-7 col-sm-12'>
           <div class='div20 hidden-sm'></div>
-          <a href='/' style='text-decoration:none'>
-            <div class='title purple'>{{ site.title }}</div>
+          <a href='/' class='title'>
+            <div class='purple'>{{ site.title }}</div>
           </a>
           <div class='purple'>{{ site.subtitle}}</div>
         </div>
@@ -37,7 +37,7 @@
     <nav class='navbar navbar-expand-md navbar-light bg-light'>
       <span class='navbar-bran'>
         <a href='/'>
-          <img class='d-md-none' style='height: 80px; padding-top: 2px;' src='{{ site.baseurl }} /assets/images/logo.png'/> <!-- TODO -->
+          <img class='d-md-none mobile-logo' src='{{ site.baseurl }} /assets/images/logo.png'/>
         </a>
       </span>
       <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
@@ -51,7 +51,7 @@
               <a class='nav-link dropdown-toggle' href='{{ link.url }}' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>{{ link.title }}</a>
               <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
                 {% for sublink in link.dropdown %}
-                  <a class='dropdown-item' href='{{ sublink.url }}'>{{ sublink.title }} <!-- }<span class="sr-only">(current)</span> --></a>
+                  <a class='dropdown-item' href='{{ sublink.url }}'>{{ sublink.title }}</a>
                   {% if forloop.index != forloop.length %}
                   <div class="dropdown-divider"></div>
                  {% endif %}
@@ -68,7 +68,6 @@
       </div>
     </nav>
 
-
     <!-- page title (e.g., What do we study?) -->
     {% if page.title %}
       <div class='card card-body bg-faded bg-light page-title'>
@@ -84,9 +83,9 @@
     </div>
 
     <!-- site footer -->
-    <div class='footer' style='margin-top: 60px; margin-bottom: -60px; font-size: 12px'>
+    <div class='footer'>
       <div class='gray-line'></div>
-        <div style='padding: 8px 10px 0; word-break: normal;'><strong>{{ site.title }} | {{ site.subtitle }} | (206) 616-2866</strong></div>
+      <div class='footer-text'>{{ site.title }} | {{ site.subtitle }} | (206) 616-2866</div>
     </div>
 
   </body>
@@ -97,7 +96,6 @@
 
     <!-- JavaScript -->
     <script type='text/javascript' src='{{ site.baseurl }}/assets/js/bootstrap.min.js'></script>
-    <!-- <script type='text/javascript' src='{{ site.baseurl }}/assets/js/main.js'></script> -->
   </footer>
 
 </html>
