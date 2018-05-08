@@ -24,12 +24,7 @@ description: >- # this ignores newlines until the "baseurl" variable/setting
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-github_username:  ldplab
-
-baseurl: '' # the subpath of your site, e.g. /blog
-url: '' # the base hostname & protocol for your site, e.g. http://example.com
-paper_url: /assets/papers
-image_url: /assets/images
+github_username: ldplab
 
 timezone: America/Los_Angeles
 
@@ -39,14 +34,24 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+include: 
+  - '.htaccess'
+
+# exclude from processing...
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - assets/images/unused/
+  - _config.yml
+  - _config_dev.yml
+  - _config_prod.yml
+  - _config_stage.yml
+  - dev.sh
+  - prod.sh
+  - stage.sh
+  - todo.list

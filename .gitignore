@@ -1,9 +1,12 @@
+*.DS_store
+*.sh
+
+_prod
 _site
+_stage
 .sass-cache
 .jekyll-metadata
-.DS_store
 
-# local files
-launch.sh
+_config_*.yml
 todo.list
 assets/images/unused/*

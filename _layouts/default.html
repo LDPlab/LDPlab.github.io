@@ -9,8 +9,8 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Delius+Unicase'>
 
     <!-- CSS -->
-    <link rel='stylesheet' href='{{ site.baseurl }} /assets/css/bootstrap.min.css'/>
-    <link rel='stylesheet' href='{{ site.baseurl }} /assets/css/style.css'/>
+    <link rel='stylesheet' href='{{ site.baseurl }}/assets/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='{{ site.baseurl }}/assets/css/style.css'/>
   </head>
 
   <body>
@@ -19,13 +19,13 @@
     <div class='page-header d-none d-md-block'>
       <div class='row'>
         <div class='col-md-5 col-sm-12'>
-          <a href='/'>
-            <img class='logo' src='{{ site.baseurl }}/assets/images/logo-textless.png'/>
+          <a href='{{ site.baseurl }}'>
+            <img class='logo' src='{{ site.image_url }}/logo-textless.png'/>
           </a>
         </div>
         <div class='col-md-7 col-sm-12'>
           <div class='div20 hidden-sm'></div>
-          <a href='/' class='title'>
+          <a href='{{ site.baseurl }}' class='title'>
             <div class='purple'>{{ site.title }}</div>
           </a>
           <div class='purple'>{{ site.subtitle}}</div>
@@ -36,8 +36,8 @@
     <!-- navigation -->
     <nav class='navbar navbar-expand-md navbar-light bg-light'>
       <span class='navbar-bran'>
-        <a href='/'>
-          <img class='d-md-none mobile-logo' src='{{ site.baseurl }} /assets/images/logo.png'/>
+        <a href='{{ site.baseurl }}'>
+          <img class='d-md-none mobile-logo' src='{{ site.image_url }}/logo.png'/>
         </a>
       </span>
       <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
@@ -48,10 +48,10 @@
           {% for link in site.data.navigation %}
             {% if link.dropdown %}
             <li class='nav-item dropdown'>
-              <a class='nav-link dropdown-toggle' href='{{ link.url }}' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>{{ link.title }}</a>
+              <a class='nav-link dropdown-toggle' href='{{ site.page_url }}{{ link.url }}' id='navbarDropdown' role='button' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>{{ link.title }}</a>
               <div class='dropdown-menu' aria-labelledby='navbarDropdown'>
                 {% for sublink in link.dropdown %}
-                  <a class='dropdown-item' href='{{ sublink.url }}'>{{ sublink.title }}</a>
+                  <a class='dropdown-item' href='{{ site.page_url }}{{ sublink.url }}'>{{ sublink.title }}</a>
                   {% if forloop.index != forloop.length %}
                   <div class="dropdown-divider"></div>
                  {% endif %}
