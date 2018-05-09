@@ -19,6 +19,7 @@ $uw-light-gray: #d9d9d9;  /* UW brand light gray */
 $uw-dark-gray: #444;      /* UW brand dark gray */ 
 
 $text-gray: #666;
+$medium-gray: #555;
 $light-purple: #564A81;
 $faint-putple: #e9e2f5;
 
@@ -67,6 +68,7 @@ body {
 }
 
 .page-title {
+  color: $medium-gray;
   font-size: 22px;
   text-align: center;
   border-left: none;
@@ -176,7 +178,7 @@ body {
 }
 
 .contact-box strong {
-  color: #555;
+  color: $medium-gray;
 }
 
 /* general CSS ----------------------------------------- */
