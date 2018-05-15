@@ -19,7 +19,11 @@ permalink: /papers/
         {{ paper.citation }}
         <span class='purple'>
           {% for link in paper.links %}
+            {% if link[1] contains "http" %}
             [<a href='{{ link[1] | uri_escape }}' target='_blank'>{{ link[0] }}</a>]
+            {% else %}
+            [<a href='{{ site.paper_url }}/{{ link[1] | uri_escape }}' target='_blank'>{{ link[0] }}</a>]
+            {% endif %}
           {% endfor %}
         </span>
       </p>
