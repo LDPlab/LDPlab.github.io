@@ -21,7 +21,7 @@ $uw-dark-gray: #444;      /* UW brand dark gray */
 $text-gray: #666;
 $medium-gray: #555;
 $light-purple: #564A81;
-$faint-putple: #e9e2f5;
+$faint-purple: #e9e2f5;
 
 $breakpoint: 780px;   /* for responsiveness */
 
@@ -171,7 +171,7 @@ body {
 /* contact.html (PAGE) --------------------------------- */
 
 .contact-box {
-  background-color: $faint-putple;
+  background-color: $faint-purple;
   border-radius: 5px;
   margin: auto;
   padding: 10px;
@@ -313,7 +313,7 @@ img.full {
   border-bottom: 4px #f5f5f5 solid;
   border-top: 5px $uw-purple solid;
   border-radius: 4px;
-  height: 280px;
+  height: 270px;
 }
 
 .collaborator-institution,
@@ -325,8 +325,8 @@ img.full {
 }
 
 .member-email img {
-  height: 35px; /* TODO: awesome fonts? */
-  margin-bottom: 20px;
+  height: 35px;
+  margin-bottom: 2px;
 }
 
 .member-links {
@@ -343,7 +343,58 @@ img.full {
   opacity: .6;
 }
 
-/* --- */
+/* in memoriam ----------------------------------------- */
+
+.memoriam {
+  color: $medium-gray;
+  width: 80%;
+  min-width: 320px;
+  border: 10px $faint-purple solid;
+  border-radius: 20px;
+}
+
+.memoriam .member-role {
+  margin-top: 10px;
+}
+
+.remembering-akira {
+  width: 60%;
+  min-width: 270px;
+  padding-bottom: 10px;
+}
+
+.remembering-akira a {
+  text-decoration: none !important;
+}
+
+.carousel {
+  width: 90%;
+  max-width: 730px;
+  border: solid #f5f5f5 8px;
+  border-radius: 64px;
+  box-shadow: 1px 1px 6px $uw-light-gray;
+  overflow: hidden;
+}
+
+.carousel-item {
+  border-radius: 64px;
+}
+
+.carousel-item img {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev-icon {
+  margin-left: -20%;
+}
+
+.carousel-control-next-icon {
+  margin-right: -20%;
+}
+
+/* ----------------------------------------------------- */
 
 .circle-icon-background {
   width: 100px;
@@ -411,6 +462,10 @@ img.full {
     width: 120%;
     padding: 0;
     margin-left: -8.5%;
+  }
+
+  .memoriam {
+    border: 5px $faint-purple solid;
   }
 
 }

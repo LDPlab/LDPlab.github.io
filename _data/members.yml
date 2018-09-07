@@ -1,13 +1,8 @@
 current:
-  - name: Dr. Akira Omaki
-    role: Principle Investigator
-    website: https://linguistics.washington.edu/people/akira-omaki
-    photo: ao.jpg
-
-  - name: Ian Rigby
-    role: Lab Manager/Research Assistant (2017-2018)
-    email: ianrigby@uw.edu
-    photo: ir.jpg
+  # - name: Dr. Akira Omaki
+  #   role: Principle Investigator
+  #   website: https://linguistics.washington.edu/people/akira-omaki
+  #   photo: ao.jpg
 
   - name: Naomi Tachikawa Shapiro
     role: Graduate Student
@@ -34,14 +29,19 @@ current:
     photo: mo.jpg
 
 alumni:
+  - name: Ian Rigby
+    role: Lab Manager (2017-2018)
+    email: ianrigby@uw.edu
+    photo: ir.jpg
+
+  - name: Anthony Yacovone
+    role: Lab Manager (2016-2017)
+    photo: ay.jpg
+
   - name: Alli Germain
     role: Graduate Student
     email: agermain@uw.edu
     photo: ag.jpg
-
-  - name: Anthony Yacovone
-    role: Lab Manager/Research Assistant (2016-2017)
-    photo: ay.jpg
 
   - name: Anna Kunz
     role: Research Assistant
