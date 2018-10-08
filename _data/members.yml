@@ -54,6 +54,10 @@ alumni:
     photo: jpr.jpg
 
 collaborators:
+  - name: Emily Atkinson
+    institution: University of Michigan
+    website: https://www.emilyeatkinson.net/
+
   - name: Brian Dillon
     institution: UMass, Amherst
     website: https://blogs.umass.edu/bwdillon/
