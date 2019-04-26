@@ -15,19 +15,6 @@ current:
     email: tsnaomi@uw.edu
     photo: nts.jpg
 
-  - name: Brent Woo
-    role: Graduate Student
-    website: http://brentwoo.com/
-    cv: https://drive.google.com/file/d/0BygUZQ2ZoGnNekZJWWZ0Z2x2YVk/view
-    email: bwoo@uw.edu
-    photo: bw.jpg
-
-  - name: Taylor Carrasco-Hermerding
-    role: Graduate Student
-    cv: http://taylorcarrasco.weebly.com/uploads/6/2/4/0/62407885/tc_cv.pdf
-    email: hermet@uw.edu
-    photo: tch.jpg
-
   - name: Marina Oganyan
     role: Post-Doc
     email: marina0@uw.edu
@@ -42,6 +29,19 @@ alumni:
   - name: Anthony Yacovone
     role: Lab Manager (2016-2017)
     photo: ay.jpg
+
+  - name: Brent Woo
+    role: Graduate Student
+    website: http://brentwoo.com/
+    cv: https://drive.google.com/file/d/0BygUZQ2ZoGnNekZJWWZ0Z2x2YVk/view
+    email: bwoo@uw.edu
+    photo: bw.jpg
+
+  - name: Taylor Carrasco-Hermerding
+    role: Graduate Student
+    cv: http://taylorcarrasco.weebly.com/uploads/6/2/4/0/62407885/tc_cv.pdf
+    email: hermet@uw.edu
+    photo: tch.jpg
 
   - name: Alli Germain
     role: Graduate Student
