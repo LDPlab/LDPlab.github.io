@@ -1,28 +1,38 @@
 - title: Home
   url: /
 
-- title: Parents
+- title: Research
   url: '#'
   dropdown:
     - title: What do we study?
       url: '/what-do-we-study'
-    - title: Visiting the lab
-      url: '/visiting-the-lab'
-    - title: How to participate
-      url: '/participate'
+    - title: People
+      url: '/people'
+    - title: Current projects
+      url: /current-projects
+    - title: Publications
+      url: /publications
 
-- title: Research
+- title: Participate!
   url: '#'
   dropdown:
-    - title: People
-      url: '/people '
-    - title: Methods
-      url: '/methods'
-    - title: Papers
-      url: '/papers'
+    - title: "Families: Visiting the lab"
+      url: /families
+    - title: "Families: How to participate"
+      url: /participate
+    - title: Early education centers & schools
+      url: /early-education
+
+- title: News/Events
+  url: '#'
+  dropdown:
+    - title: News
+      url: /news
+    - title: Events
+      url: /events
 
 - title: Directions/Contact Us
-  url: '/contact-us'
+  url: /contact-us
 
 # - title: Lab Wiki [Internal]  # hard-coded in default.html
 #   url: 'https://sites.google.com/a/uw.edu/ldpwiki/'

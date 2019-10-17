@@ -1,110 +1,33 @@
-last-updated: '22 June 2018'
+last-updated: '14 October 2019'
 
 downloadable:
-  - citation: 'Nozari, N. & Omaki, A. (in press). Syntactic production is not independent of inhibitory control: Evidence from agreement attraction errors. In C. Kalish, M. Rau, J. Zhu, & T. Rogers (Eds.), Proceedings of the 40th Annual Conference of the Cognitive Science Society Austin, TX: Cognitive Science Society.'
-    links:
-      pdf: 'Nozari&Omaki-CogSci2018-Final-1.pdf'
+  # - citation: 'Nozari, N. & Omaki, A. (in press). Syntactic production is not independent of inhibitory control: Evidence from agreement attraction errors. In C. Kalish, M. Rau, J. Zhu, & T. Rogers (Eds.), Proceedings of the 40th Annual Conference of the Cognitive Science Society Austin, TX: Cognitive Science Society.'
+  #   links:
+  #     pdf: 'Nozari&Omaki-CogSci2018-Final-1.pdf'
 
-  - citation: 'Atkinson, E., Wagers, M., Lidz, J., Phillips, C., & Omaki, A. (2018). Developing incrementality in filler-gap dependency processing. Cognition, 179, 132-149.'
-    links:
-      pdf: 'Atkinson.etal.18.cognition.fillergap.pdf'
+  - citation: "Kuhl, P.K., N. Ferjan Ramírez (2019) Neuroscience and education: How early brain development affects school. In: Kuhl, P., S-S. Lim, S. Guerriero & D. Van Damme (Eds.), <i>Learning in the digital age: Towards a Science of Learning for 21st Century Education.</i> Education Research and Innovation, OECD Publishing, Paris. Pp. 25-36."
 
-  - citation: 'Clothier, K., Nambu, S., Ono, H., & Omaki, A. (2017). Cross-situational learning of novel anaphors. Proceedings of the 39th Annual Cognitive Science Society (CogSci 2017).'
-    links:
-      pdf: 'clothier_etal17_CogSci.pdf'
+  - citation: "Ferjan Ramírez, N., Lytle, S., Fish, M., Kuhl, P.K. (2018). Parent coaching at 6 and 10 months improves language outcomes at 14 months: A randomized controlled trial. <i>Developmental Science</i>, e12762. <a href='https://doi.org/10.1111/desc.12762'>https://doi.org/10.1111/desc.12762</a>"
 
-  - citation: 'Fukuda, S., Nakao, C., Omaki, A., & Polinsky, M. (2016). Japanese subjects and objects are equally open to subextraction. Why?. To appear in Proceedings of FAJL 8.'
-    links:
-      pdf: 'Fukuda_etal16_FAJL8.pdf'
+  - citation: "Ferjan Ramírez, N., Kuhl, P.K. (2017). Bilingual Baby: Foreign Language Intervention in Madrid’s Infant Education Centers. <i>Mind, Brain, and Education</i>, 11(3), 133-43."
 
-  - citation: 'Omaki, A. (2016). Linking learning and parsing in bilingual sentence processing. Bilingualism: Language and Cognition.'
-    links:
-      pdf: 'Omaki16_bilingualism.pdf'
+  - citation: "Ferjan Ramírez, N., Kuhl, P.K. (2017). The brain science of bilingualism. <i>Young Children</i>, 72, 38-44."
 
-  - citation: 'Lane, C., Kanjlia, S., Richardson, H., Fulton, A., Omaki, A., & Bedny, M. (2016). Reduced left lateralization of language in congenitally blind individuals. Journal of Cognitive Neuroscience, 29:1, 65-78.'
-    links:
-      pdf: 'Lane_etal16_JoCN.pdf'
+  - citation: "Ferjan Ramírez, N., Ramírez, R.R., Clarke, M., Taulu, S., Kuhl, P.K. (2016). Speech discrimination in 11-month-old bilingual and monolingual infants: A magnetoencephalography study. <i>Developmental Science</i>, e12427. <a href='https://doi.org/10.1111/desc.12427'>https://doi.org/10.1111/desc.12427</a>"
 
-  - citation: 'Atkinson, E., Apple, A., Rawlins, K., & Omaki, A. (2016). Similarity of wh-Phrases and Acceptability Variation in wh-Islands. Frontiers in Psychology.'
-    links:
-      pdf: 'Atkinson_etal16_Frontiers.pdf'
+  - citation: "Ferjan Ramírez, N., Kuhl, P.K. (2016). <i>Bilingual Language Learning in Children</i>. Summary presented at the <i>White House Regional Summit on Dual Language Learners</i>. Miami, FL, June 2, 2016."
 
-  - citation: 'Lassotta, R., Omaki, A., & Franck, J. (2016). Developmental changes in the misinterpretation of garden-path wh-questions in French.' 
-    links:
-      pdf: 'Lassotta_etal16_QJEP.pdf'
+  - citation: "Ferjan Ramírez, N., Leonard, M.K., Davenport, T., Torres, C., Mayberry, R.I., Halgren, E. (2014). Neural language processing in adolescent first-language learners: Longitudinal case studies in American Sign Language. </i>Cerebral Cortex</i>. Available online: <a href='http://www.ncbi.nlm.nih.gov/pubmed/25410427'>http://www.ncbi.nlm.nih.gov/pubmed/25410427</a>"
 
-  - citation: 'Lane, C., Kanjlia, S., Omaki, A., & Bedny, M. (2015). "Visual" cortex of congenitally blind adults responds to syntactic movement. The Journal of Neuroscience, 35(37), 12859-68.' 
-    links:
-      # pdf: # missing paper!
+  - citation: "Ferjan Ramírez, N., Lieberman, A., Mayberry, R.I. (2013). The initial stages of first-language acquisition begun in adolescence: When late looks early. <i>Journal of Child Language</i>, 40(2), 391-414."
 
-  - citation: 'Omaki, A., Lau, E., Davidson White, I., Dakan, M., Apple, A., & Phillips, C. (2015). Hyper-active gap filling. Frontiers in Psychology.' 
-    links:
-      pdf: 'Omaki_etal15_hyperactive.pdf'
+  - citation: "Ferjan Ramírez, N., Leonard, M.K., Halgren, E., Mayberry, R.I. The neural correlates of childhood linguistic isolation. (2013) In S. Baiz, N. Goldman, R. Hawkes (Eds.) <i>Proceedings of the 37th Boston University Conference on Language Development</i>. Boston: Cascadilla Press."
 
-  - citation: 'Omaki, A., & Lidz, J. (2015). Linking parser development to acquisition of syntactic knowledge. Language Acquisition.' 
-    links:
-      pdf: 'OmakiLidz15_linking.pdf'
+  - citation: "Ferjan Ramírez, N., Leonard, M.K., Torres, C., Hatrak, M., Halgren, E., Mayberry, R.I.. (2013) Neural language processing in adolescent first-language learners. <i>Cerebral Cortex</i> doi:  <a href='https://doi.org/10.1093/cercor/bht137'>10.1093/cercor/bht137</a>."
 
-  - citation: 'Fukuda, S., Nakao, C., Omaki, A., & Polinsky, M. (to appear). Revisiting Subject-Object Asymmetry: Subextraction in Japanese. To appear in Proceedings of WAFL 10.' 
-    links:
-      pdf: 'Fukuda_etal14_WAFL.pdf'
+  - citation: "Leonard, M.K., Ferjan Ramírez, N., Torres, C., Hatrak, M., Mayberry, R.I., Halgren, E.. (2013) Neural stages of spoken, written, and signed word processing in second language learners. <i>Frontiers of Human Neuroscience</i>, doi: <a href='https://doi.org/10.3389/fnhum.2013.00322'>10.3389/fnhum.2013.00322</a>."
 
-  - citation: 'Omaki, A., Davidson White, I., Goro, T., Lidz, J., & Phillips, C. (2014). No fear of commitment: Children’s incremental interpretation in English and Japanese wh-questions. Language Learning and Development, 10, 206-233.' 
-    links:
-      pdf: 'Omaki_etal14_WhQuestion.pdf'
-      question materials: 'Omaki_etal14_question_materials.pdf'
-      sample story video: 'https://www.youtube.com/watch?v=m2pNlzUjKYU'
+  - citation: "Leonard, M.K., Ferjan Ramírez, N., Torres, C., Travis, K., Hatrak, M., Mayberry, R.I., Halgren, E.. (2012) Signed Words in the Congenitally Deaf Evoke Typical Late Lexicosemantic Responses with No Early Visual Responses in Left Superior Temporal Cortex. <i>Journal of Neuroscience</i>, 32(28), 9700-9705."
 
-  - citation: 'Omaki, A. (2013). Grammatical constraints and reductionism in sentence processing. Linguistic Approaches to Bilingualism.' 
-    links:
-      pdf: 'Omaki13_OGradyCommentary.pdf'
+  - citation: "Ferjan Ramírez, N., Lieberman, A., Mayberry, R.I. (2011) The first words acquired by adolescent first-language learners: When late looks early. In N. Dannis, K. Mesh, & H. Sung (Eds). <i>Proceedings of the 35th Boston University Conference on Language Development. Boston: Cascadilla Press.</i>"
 
-  - citation: 'Hsin, L., Legendre, G., & Omaki, A. (2013). Priming cross-linguistic interference in Spanish-English bilingual children. In S. Baiz, N. Goldman & R. Hawkes (Eds.), BUCLD 37 Proceedings (pp. 165-177).' 
-    links:
-      pdf: 'Hsin_etal13_BUCLD.pdf'
-
-  - citation: 'Omaki, A., & Yoshida, M. (2013). Movement. In M. Aronoff (Ed.), Oxford Bibliographies Linguistics.' 
-    links:
-      pdf: 'OmakiYoshida13_Movement.pdf'
-
-  - citation: 'Kush, D., Omaki, A., & Hornstein, N. (2013). Microvariation in islands? In J. Sprouse & N. Hornstein (Eds.), Experimental syntax and island effects. Cambridge University Press.' 
-    links:
-      pdf: 'Kush_etal11_island_preprint.pdf'
-
-  - citation: "Jurka, J., Nakao, C., & Omaki, A. (2011). It's Not the End of the CED as We Know It: Revisiting German and Japanese Subject Islands. In 28th WCCFL Proceedings. Sommerville, MA: Cascadilla Press." 
-    links:
-      pdf: 'http://www.lingref.com/cpp/wccfl/28/paper2443.pdf'
-
-  - citation: 'Omaki, A., & Schulz, B. (2011). Filler-gap dependencies and island constraints in second language sentence processing. Studies in Second Language Acquisition.' 
-    links:
-      pdf: 'OmakiSchulz11.pdf'
-      SPR materials: 'OmakiSchulz_materials.pdf'
-
-  - citation: 'Omaki, A. (2010). Commitment and flexibility in the developing parser. PhD thesis, University of Maryland.'
-    links:
-      pdf: 'Omaki10_diss.pdf'
-
-  - citation: 'Omaki, A., & Nakao, C. (2010). Does English resumption really help to repair island violations? Snippets, 21, 11-12.'
-    links:
-      pdf: 'OmakiNakao10_snippets.pdf'
-
-  - citation: 'Omaki, A. (2009). Verbal morphology: Return of the affix hopping approach. In Proceedings of NELS 38, vol. 2 (pp. 193-204). GLSA Publications.'
-    links:
-      pdf: 'omaki09_nels38.pdf'
-
-  - citation: 'Poeppel, D., & Omaki, A. (2008). Language acquisition and ERP approaches: Prospects and challenges. In A. Friederici & G. Thierry (Eds.), Early language acquisition: Bridging brain and behavior (pp. 233-255). John Benjamins.'
-    links:
-      pdf: 'PoeppelOmaki08.pdf'
-
-in-progress:
-  - citation: 'Omaki, A and Apple, A. (in prep). Structural parallelism effects in filler-gap dependency processing.'
-
-  - citation: 'Atkinson, E., Wagers, M., Lidz, J., Phillips, C., & Omaki, A. (in prep). The time course of filler-gap dependency processing in 5-year-old children.'
-
-  - citation: 'Omaki, A., Lassotta, R., Kobayashi, T., Rizzi, L., & Franck, J. (in prep). Input distribution effects in the development of Japanese word order.'
-
-  - citation: 'Omaki, A., Kobayashi, T., & Lidz, J. (in prep). Case marker cues for word learning in Japanese infants.'
-
-  - citation: 'Omaki, A., Orita, N., & Lidz, J. (in prep). Beyond artificial language: Statistical learning of an English non-adjacent syntactic dependency.'
-
-  - citation: 'Omaki, A., Dillon, B., Ito, S., Kubo, T., & Sakai, H. (in prep). Anti-locality bias in the processing of Japanese reflexive binding.'

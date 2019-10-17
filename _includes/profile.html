@@ -1,21 +1,26 @@
 <div class='member-profile'>
-  <img class='member-photo' src='{{ site.baseurl }}/assets/images/members/{{ member.photo }}'/>
-  <div class='inner-profile mx-auto'>
-    <div class='member-name'><strong>{{ member.name }}</strong></div>
-    <div class='member-role'>{{ member.role }}</div>
-    <div class='member-links'>
-      {% if member.cv and member.website %}
-      <a target='_blank' href='{{ member.website }}'>Website</a> | <a target='_blank' href='{{ member.cv }}'>CV</a> |
-      {% elsif member.cv %}
-      <a target='_blank' href='{{ member.cv }}'>CV</a> |
-      {% elsif member.website %}
-      <a target='_blank' href='{{ member.website }}'>Website</a> | 
+  <div class='masonry-content'>
+    <img class='member-photo' src='{{ site.baseurl }}/assets/images/members/{{ member.photo }}'/>
+    <div class='inner-profile mx-auto'>
+      <div class='member-name'><strong>{{ member.name }}</strong></div>
+      <div class='member-role'>{{ member.role }}</div>
+      {% if member.blurb %}
+      <p class='member-blurb'>&nbsp;&nbsp;&nbsp;&nbsp;{{ member.blurb }}</p>
       {% endif %}
-      {% if member.email %}
-      <a class='member-email' href='mailto:{{ member.email }}'>
-        <img src='{{ site.baseurl }}/assets/images/uw_icons_envelope.png'/>
-      </a>
-      {% endif %}
+      <div class='member-links'>
+        {% if member.cv and member.website %}
+        <a target='_blank' href='{{ member.website }}'>Website</a> | <a target='_blank' href='{{ member.cv }}'>CV</a> |
+        {% elsif member.cv %}
+        <a target='_blank' href='{{ member.cv }}'>CV</a> |
+        {% elsif member.website %}
+        <a target='_blank' href='{{ member.website }}'>Website</a> | 
+        {% endif %}
+        {% if member.email %}
+        <a class='member-email' href='mailto:{{ member.email }}'>
+          <img src='{{ site.baseurl }}/assets/images/uw_icons_envelope.png'/>
+        </a>
+        {% endif %}
+      </div>
     </div>
   </div>
 </div>

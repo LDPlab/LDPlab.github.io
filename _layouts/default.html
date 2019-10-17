@@ -19,13 +19,13 @@
     <div class='page-header d-none d-md-block'>
       <div class='row'>
         <div class='col-md-5 col-sm-12'>
-          <a href='{{ site.baseurl }}'>
+          <a href='{{ site.baseurl }}/'>
             <img class='logo' src='{{ site.image_url }}/logo-textless.png'/>
           </a>
         </div>
         <div class='col-md-7 col-sm-12'>
           <div class='div20 hidden-sm'></div>
-          <a href='{{ site.baseurl }}' class='title'>
+          <a href='{{ site.baseurl }}/' class='title'>
             <div class='purple'>{{ site.title }}</div>
           </a>
           <div class='purple'>{{ site.subtitle}}</div>
@@ -36,7 +36,7 @@
     <!-- navigation -->
     <nav class='navbar navbar-expand-md navbar-light bg-light'>
       <span class='navbar-bran'>
-        <a href='{{ site.baseurl }}'>
+        <a href='{{ site.baseurl }}/'>
           <img class='d-md-none mobile-logo' src='{{ site.image_url }}/logo.png'/>
         </a>
       </span>
@@ -89,6 +89,10 @@
     <div class='footer'>
       <div class='gray-line'></div>
       <div class='footer-text'>{{ site.title }} | {{ site.subtitle }} | (206) 616-2866</div>
+      <div class='footer-text privacy-terms' style='margin-top: -6px;'>
+        <a href='http://www.washington.edu/online/privacy'>Privacy</a> |
+        <a href='http://www.washington.edu/online/terms'>Terms</a>
+      </div>
     </div>
 
   </body>

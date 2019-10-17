@@ -1,0 +1,49 @@
+---
+layout: page
+title: Recent Media Coverage
+permalink: /news
+---
+
+<div class='news-events'>
+
+  <div class='center'>
+    <img src='{{ site.baseurl }}/assets/images/naja-in-the-news.png' style='height: 320px; max-width: 90%;'/>
+  </div>
+
+  <div class='div30'></div>
+
+  <h5 class='purple'>Parentese</h5>
+
+  <div class='div20'></div>
+
+  <ul>
+    {% for article in site.data.news.parentese %}
+      <li>{{ article.venue }}: <a target='_blank' href='{{ article.link }}'>{{ article.headline }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <div class='div20'></div>
+
+  <h5 class='purple'>Second language learning in infant education centers</h5>
+
+  <div class='div20'></div>
+
+  <ul>
+    {% for article in site.data.news.education-centers %}
+      <li>{{ article.venue }}: <a target='_blank' href='{{ article.link }}'>{{ article.headline }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <div class='div20'></div>
+
+  <h5 class='purple'>Bilingual brain</h5>
+
+  <div class='div20'></div>
+
+   <ul>
+    {% for article in site.data.news.bilingual-brain %}
+      <li>{{ article.venue }}: <a target='_blank' href='{{ article.link }}'>{{ article.headline }}</a></li>
+    {% endfor %}
+  </ul>
+
+</div>

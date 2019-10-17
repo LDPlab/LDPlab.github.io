@@ -4,86 +4,38 @@ current:
   #   website: https://linguistics.washington.edu/people/akira-omaki
   #   photo: ao.jpg
 
-  - name: Maho Takahashi
-    role: Graduate Student
-    email: mahotaka@uw.edu
-    photo: mt.jpeg
+  - name: Dr. Naja Ferjan Ramírez
+    role: Principal Investigator
+    website: https://linguistics.washington.edu/people/naja-ferjan-ramirez
+    email: naja@uw.edu
+    blurb: "Naja (pronounced Naya) Ferjan Ramírez is an Assistant Professor in Linguistics at the University of Washington and holds the Distinguished Professorship in Language Acquisition and Multilingualism Endowment. She earned her Bachelor's degree in Neuroscience from Brown University and her Ph.D. in Linguistics and Cognitive Science from the University of California, San Diego. She completed her post-doctoral training at the Institute for Learning & Brain Sciences at the University of Washington. Naja’s research focuses on understanding the extent and origins of variability in brain growth and linguistic development among young children of diverse backgrounds. She uses multiple methodologies, including naturalistic recordings in children’s homes and early education centers, magnetoencephalography (MEG), and behavioral language measures in the laboratory. Naja is a proud mother of three young children who listen to and speak three languages at home: Slovene, Spanish, and English."
+    photo: nfr.jpg
+
+  - name: Dr. Akira Omaki
+    role: In Memoriam
+    blurb: "The Language Development and Processing Lab would like to remember and celebrate its founder, Akira, who passed away on August 6th 2018, following complications from lymphoma. We invite you to read this <a target='_blank' href='http://www.colinphillips.net/remembering-akira/' style='text-decoration:none;'><strong>longer tribute</strong></a> to our inspiring colleague and friend."
+    photo: ao.jpg
+
+  - name: Dr. Marina Oganyan
+    role: Post-Doc
+    email: marina0@uw.edu
+    photo: mo.jpg
 
   - name: Naomi Tachikawa Shapiro
     role: Graduate Student
     website: http://tsnaomi.net
     email: tsnaomi@uw.edu
+    blurb: "Naomi is a third-year Ph.D. student in Computational Linguistics at the University of Washington. Her research focuses on natural and artificial linguistic intelligence: how humans <i>and</i> machines understand and produce language. Prior to coming to UW for her Ph.D., she earned her master's in Symbolic Systems at Stanford University."
     photo: nts.jpg
 
-  - name: Marina Oganyan
-    role: Post-Doc
-    email: marina0@uw.edu
-    photo: mo.jpg
+  - name: Sujin Cho
+    role: Undergraduate Student
+    photo: placeholder.jpg
 
-alumni:
-  - name: Ian Rigby
-    role: Lab Manager (2017-2018)
-    email: ianrigby@uw.edu
-    photo: ir.jpg
+  - name: Jake McManus
+    role: Undergraduate Student
+    photo: placeholder.jpg
 
-  - name: Anthony Yacovone
-    role: Lab Manager (2016-2017)
-    photo: ay.jpg
-
-  - name: Brent Woo
-    role: Graduate Student
-    website: http://brentwoo.com/
-    cv: https://drive.google.com/file/d/0BygUZQ2ZoGnNekZJWWZ0Z2x2YVk/view
-    email: bwoo@uw.edu
-    photo: bw.jpg
-
-  - name: Taylor Carrasco-Hermerding
-    role: Graduate Student
-    cv: http://taylorcarrasco.weebly.com/uploads/6/2/4/0/62407885/tc_cv.pdf
-    email: hermet@uw.edu
-    photo: tch.jpg
-
-  - name: Alli Germain
-    role: Graduate Student
-    email: agermain@uw.edu
-    photo: ag.jpg
-
-  - name: Anna Kunz
-    role: Research Assistant
-    email: kunza2@uw.edu
-    photo: ak.jpg
-
-  - name: JP Reddy
-    role: Summer Intern (2017)
-    email: JP.Reddy@lakesideschool.org
-    photo: jpr.jpg
-
-collaborators:
-  - name: Emily Atkinson
-    institution: University of Michigan
-    website: https://www.emilyeatkinson.net/
-
-  - name: Brian Dillon
-    institution: UMass, Amherst
-    website: https://blogs.umass.edu/bwdillon/
-
-  - name: Marina Bedny
-    institution: Johns Hopkins University
-    website: http://pbs.jhu.edu/directory/marina-bedny/
-
-  - name: Nazbanou Nozari
-    institution: Johns Hopkins University
-    website: http://nazbanou.net/
-
-  - name: Julie Franck
-    institution: University of Geneva, Switzerland
-    website: https://www.unige.ch/fapse/psycholinguistique/equipes/devlang/membres/franck/
-
-  - name: Tessei Kobayashi
-    institution: NTT Communication Science Laboratories, Japan
-    website: http://www.kecl.ntt.co.jp/icl/ce/member/tessei/e-index.html
-
-  - name: Hiromu Sakai
-    institution: Waseda University, Japan
-    website: http://www.celese.sci.waseda.ac.jp/faculty/sakai
-
+  - name: Domonique Dunn
+    role: Undergraduate Student
+    photo: placeholder.jpg

@@ -1,110 +1,27 @@
 ---
 layout: default
-title: Team LDP
-permalink: /people/
+title: Lab Members
+permalink: /people
 ---
 
-<!-- in memoriam -->
-<div class='memoriam mx-auto center'>
-  <div class='div20'></div> 
-  <h4 class='purple'>In Memoriam</h4>
-  <div class='div10'></div>
-
-  <!-- carousel (start) -->
-  <div id='carouselIndicators' class='carousel slide mx-auto' data-ride='carousel'>
-    <ol class='carousel-indicators'>
-      {% for i in (1..5) %}
-      <li data-target='#carouselIndicators' data-slide-to='{{ forloop.index0 }}' {% if forloop.first == true %}class='active'{% endif %}></li>
-      {% endfor %}
-    </ol>
-    <div class='carousel-inner'>
-      {% for i in (1..5) %}
-      <div class='carousel-item {% if forloop.first == true %}active{% endif %}'>
-        <img class='d-block w-100' src='{{ site.baseurl }}/assets/images/ao/ao_{{ forloop.index }}.jpg' alt='First slide'>
-      </div>
+<!-- lab members -->
+<div class='center'>
+  <div class='row'>
+    <div class='masonry'>
+      {% for member in site.data.members.current %}
+        {% include profile.html %}
       {% endfor %}
     </div>
-    <a class='carousel-control-prev' href='#carouselIndicators' role='button' data-slide='prev'>
-      <span class='carousel-control-prev-icon' aria-hidden='true'></span>
-      <span class='sr-only'>Previous</span>
-    </a>
-    <a class='carousel-control-next' href='#carouselIndicators' role='button' data-slide='next'>
-      <span class='carousel-control-next-icon' aria-hidden='true'></span>
-      <span class='sr-only'>Next</span>
-    </a>
   </div>
-  <!-- carousel (end) -->
-
-  <div class='div20'></div>
-  <h4 class='member-name'><strong>Dr. Akira Omaki</strong></h4>
-  <h5 class='member-role'>Principal Investigator</h5>
-  <div class='div10'></div>
-  <div class='remembering-akira mx-auto'>
-    The Language Development and Processing Lab mourns the loss of its founder, Akira, who passed away on August 6th 2018, following complications from lymphoma.
-    We welcome you to read this
-    <a target='_blank' href='http://www.colinphillips.net/remembering-akira/'><strong>longer tribute</strong></a>
-    to our inspiring advisor and friend.
-  </div>
-  <div class='div20'></div>
 </div>
 
 <div class='div45'></div>
 
-<!-- lab + collaborators -->
-<div class='row center'>
-  <div class='col-md-9 col-sm-12 col-12' style='margin-bottom: 60px'>
-
-    <!-- lab members -->
-    <h4 class='purple'>Lab Members</h4>
-    <div class='row'>
-      {% for member in site.data.members.current %}
-        <div class='col-md-6 col-sm-12 col-12'>
-          {% include profile.html %}
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class='div40'></div>
-
-    <!-- lab members & alumni -->
-    <h4 class='purple'>Lab Alumni</h4>
-    <div class='row'>
-      {% for member in site.data.members.alumni %}
-        <div class='col-md-6 col-sm-12 col-12'>
-          {% include profile.html %}
-        </div>
-      {% endfor %}
-    </div>
-
-  </div>
-
-  <div class='col-md-3 col-sm-12 col-12' style='margin-bottom: 60px'>
-
-    <!-- collaborators -->
-    <h4 class='purple' style='padding-top: 2px;'>Collaborators</h4>
-      <br/>
-      <br/>
-      {% for member in site.data.members.collaborators %}
-        <div>
-          <img src='{{ site.image_url }}/paws.jpg' style='height: 60px'/>
-        </div>
-        <a class='collaborator-name' target='_blank' href='{{ member.website }}' style='text-decoration: none;'><strong>{{ member.name }}</strong></a>
-        <div class='collaborator-institution'>{{ member.institution }}</div>
-        <br/>
-        <br/>
-      {% endfor %}
-
-    <div class='div20'></div>
-
-    <div class='mx-auto'>
-      <div class='width-100'>
-        <a class='btn btn-purple' href='{{ site.baseurl }}/participate/' role='button'>Participate</a>
-      </div>
-      <br>
-      <div class='width-100'>
-        <a class='btn btn-purple' href='{{ site.baseurl }}/contact-us/' role='button'>Contact us</a>
-      </div>
-    </div>
-
-  </div>
+<!-- student plug -->
+<div class='mx-auto center'>
+  <h4 class='purple'>Students:</h4>
+  <p style='margin: 0 10%;'>Dr. Ferjan Ramírez is always interested in mentoring curious, passionate, and motivated students! If you are interested in hearing about upcoming research opportunities in the lab, please email her directly at <span class='purple'>naja@uw.edu</span>.</p>
 </div>
+
+<!-- masonry js -->
+<script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.js'></script>

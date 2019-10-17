@@ -9,4 +9,12 @@ _stage
 
 _config_*.yml
 todo.list
-assets/images/unused/*
+assets/images/unused
+
+hidden
+_data/akira.yml
+assets/images/hidden
+assets/images/akira
+assets/images/hidden
+
+
