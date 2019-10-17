@@ -286,14 +286,10 @@ a.here-link:hover {
   text-align: center;
 }
 
-// .news-events li a {
-//   text-decoration: none;
-// }
-
-// .news-events li a:hover {
-//   text-decoration: underline;
-// }
-
+.news-events li,
+.study-list li {
+  margin-bottom: 10px;
+}
 
 /* profile.html (INCLUDE) ------------------------------ */
 
@@ -407,12 +403,6 @@ a.here-link:hover {
 
 .carousel-control-next-icon {
   margin-right: -20%;
-}
-
-/* news & events --------------------------------------- */ 
-
-.news-events li {
-  margin-bottom: 10px;
 }
 
 /* ----------------------------------------------------- */
