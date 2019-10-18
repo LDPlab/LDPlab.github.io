@@ -6,10 +6,10 @@
   dropdown:
     - title: What do we study?
       url: '/what-do-we-study'
+    - title: Research methods
+      url: /research-methods
     - title: People
       url: '/people'
-    - title: Current projects
-      url: /current-projects
     - title: Publications
       url: /publications
 

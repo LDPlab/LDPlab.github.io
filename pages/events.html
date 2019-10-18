@@ -10,11 +10,14 @@ permalink: /events
   <div class='div20'></div>
 
   <ul>
-    <li>10/1 at 10:30 AM, Smith 002: First lab meeting</li>
-    <li>10/18 at 9:30 AM, GUG 415L: Marina Ognyan. Eye tracking project with children.</li>
-    <li>10/31 at 10:30 AM, GUG 415L: Naja Ferjan Ramírez. Infant second language learning in Madrid</li>
-    <li>11/21 at 10:30 AM, GUG 415L: Naja Ferjan Ramírez. Language input, parentese, and Child Language Outcomes</li>
-    <li>12/2 at 10:30 AM, GUG 415L: Jake McManus & Sujin Cho – End of quarter student presentation</li>
+    {% for event in site.data.events.lab-meetings %}
+      <li>
+        <span style='text-transform:uppercase;'>{{ event.date }} @ {{ event.time }}, {{ event.place }}</span>
+        <br>
+        {% if event.speaker %}{{ event.speaker }}<br>{% endif %}
+        <i>{{ event.title }}</i>
+      </li>
+    {% endfor %}
   </ul>
 
   <div class='div20'></div>
