@@ -51,7 +51,11 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - assets/images/akira/
+  - assets/images/hidden/
   - assets/images/unused/
+  - hidden/
+  - _posts/
   - _config.yml
   - _config_dev.yml
   - _config_prod.yml
