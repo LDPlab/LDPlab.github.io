@@ -33,7 +33,7 @@ current:
     blurb: "Sujin Cho is a senior pursing a degree in Linguistics at the University of Washington. She is fascinated by the brain sciences, and is particularly intrigued by humans' capacity to learn languages. This quarter, Sujin will be working with Naja Ferjan Ram&#237;rez to learn about coding and data manipulation, and to develop her skills in linguistic-related research methods. She plans on continuing her studies in the field of Speech and Hearing Sciences, and hopes her experience with Naja will expand her knowledge on child language development. Outside of the lab and classroom, Sujin enjoys vegetarian cooking, music, and movies."
     photo: sc.jpg
 
-  - name: Dominique Dunn
+  - name: Dominique
     role: Undergraduate Student
     blurb: "Dominique is a senior at UW-Seattle and is double majoring in Korean and Linguistics. Her research interests include foreign language study, linguistics, and language acquisition. This quarter, Dominique is working with Naja to learn about analyzing data and extrapolating applicable data segments to help further ongoing research. She enjoys discussing and studying first and second language acquisition, acquiring English as a second language, and comparing English and Korean language usage in their respective cultural setting. Outside of the lab and classroom, she enjoys chatting with her friends from around the world, trying new cuisines, and traveling to all different parts of the globe."
     photo: dd.jpeg
@@ -45,5 +45,5 @@ current:
 
   - name: Jake McManus
     role: Undergraduate Student
-    blurb: "Jake is a rising senior at the University of Washington, majoring in linguistics. His research interests include second language acquisition, natural language processing, and statistical learning. This year Jake is working with Dr. Ferjan Ramirez on a project investigating possible connections between certain linguistic aspects of the language input children receive and their acquisition of that language. In his free time Jake enjoys music, cooking, staying active, and being outdoors."
+    blurb: "Jake is a rising senior at the University of Washington, majoring in linguistics. His research interests include second language acquisition, natural language processing, and statistical learning. This year Jake is working with Dr. Ferjan Ram&#237;rez on a project investigating possible connections between certain linguistic aspects of the language input children receive and their acquisition of that language. In his free time Jake enjoys music, cooking, staying active, and being outdoors."
     photo: jm.jpg
