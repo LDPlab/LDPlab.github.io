@@ -33,15 +33,20 @@ current:
     blurb: "Sujin Cho is a senior pursing a degree in Linguistics at the University of Washington. She is fascinated by the brain sciences, and is particularly intrigued by humans' capacity to learn languages. This quarter, Sujin will be working with Naja Ferjan Ram&#237;rez to learn about coding and data manipulation, and to develop her skills in linguistic-related research methods. She plans on continuing her studies in the field of Speech and Hearing Sciences, and hopes her experience with Naja will expand her knowledge on child language development. Outside of the lab and classroom, Sujin enjoys vegetarian cooking, music, and movies."
     photo: sc.jpg
 
-  - name: Dominique
+  - name: Lili Correa
     role: Undergraduate Student
-    blurb: "Dominique is a senior at UW-Seattle and is double majoring in Korean and Linguistics. Her research interests include foreign language study, linguistics, and language acquisition. This quarter, Dominique is working with Naja to learn about analyzing data and extrapolating applicable data segments to help further ongoing research. She enjoys discussing and studying first and second language acquisition, acquiring English as a second language, and comparing English and Korean language usage in their respective cultural setting. Outside of the lab and classroom, she enjoys chatting with her friends from around the world, trying new cuisines, and traveling to all different parts of the globe."
-    photo: dd.jpeg
+    blurb: Lili is a senior at the University of Washington majoring in Psychology. Her main areas of interest include development and the scientific method. This quarter, she is working with Naja to explore how parents speak with their children and the direct impact this has on child language acquisition. She is especially intrigued by the malleability of children’s brains when later learning a second language. In her free time, Lili enjoys taking her cat on walks and traveling&mdash;even if it’s only to an unexplored part of Seattle.
+    photo: lc.jpeg
 
   - name: Wenjun Ma
     role: Undergraduate Student
     blurb: "Wenjun Ma is a junior at UW-Seattle, currently working towards a double degree in Psychology and Linguistics. His research interests include the neurobiology of memory and language, neuroplasticity mechanisms of behavior, psycholinguistics, cognitive psychology, and language processing and development. This quarter, Wenjun is working with Naja to learn about coding and data manipulation for ongoing research projects. He is intrigued by the cognitive and brain sciences as he learned about the unimaginable human capacity to learn new skills, retain memory, acquire multiple languages, etc. Outside of the lab and classroom, he enjoys reading, traveling the world, listening to music, and spending time with friends and family."
     photo: wm.jpeg
+
+  - name: Viktoria Matessi
+    role: Undergraduate Student
+    blurb: Viktoria is a sophomore and working towards a degree in Public Health-Global Health. Her research interests include early childhood language and brain development, maternal and child health, and foreign language study. This quarter, Viktoria is working with Naja to code and analyze relevent data segments to help further ongoing research. She enjoys discussing and learning about current health disparities, health and language development of immigrants, and child language development. She speaks fluent Italian and German. Outside of the lab and classroom, she loves dancing, drawing and painting, and trying new foods.
+    photo: vm.png
 
   - name: Jake McManus
     role: Undergraduate Student
