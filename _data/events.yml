@@ -1,28 +1,31 @@
 lab-meetings:
 
-  - date: 1/17
+  - date: 4/10 (Week 2)
     time: 9:30 am
-    place: GUG 415L
-    title: First lab meeting of the quarter!
+    # place:
+    # speaker:
+    title: First meeting of the quarter!
 
-  - date: 1/31
+  - date: 4/24 (Week 4)
     time: 9:30 am
-    place: SMITH 002
-    # speaker: 
-    # title: 
+    # place:
+    # speaker:
+    title: Parental math talk in Spanish-speaking homes
 
-  - date: 2/14
+  - date: 5/8 (Week 6)
     time: 9:30 am
-    place: GUG 415L
-    # speaker: Naomi Tachikawa Shapiro
-    # title: 
+    # place:
+    # speaker:
+    title: Updates on the LENA project with English-speaking infants between 6 and 24 months
 
-  - date: 3/13
+  - date: 5/22 (Week 8)
     time: 9:30 am
-    place: GUG 415L
-    # speaker: 
-    # title: 
+    place:
+    # speaker:
+    title: Joint engagement in preschoolers with language impairment
 
-
-
-
+  - date: 6/5 (Week 10)
+    time: 9:30 am
+    # place:
+    # speaker:
+    title: Literature review on fathers' language input + Literature review on cognitive and language outcomes in diverse families

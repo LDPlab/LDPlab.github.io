@@ -6,18 +6,18 @@ permalink: /events/
 <div class='news-events'>
 
   <!-- lab meetings -->
-  <h5 class='purple'>Winter Quarter LDP Lab Meetings</h5>
+  <h5 class='purple'>Spring Quarter LDP Lab Meetings</h5>
 
   <div class='div20'></div>
 
-  <p>To foster interdisciplinary research and cross-departmental collaboration, the Winter 2020 LDP lab meetings will be run jointly with the UW's Child Language Research Lab, directed by <a href='https://sphsc.washington.edu/content/amy-e-pace'>Dr. Amy Pace</a> from the Department of Speech and Hearing Sciences. The first meeting will be held on <span>Friday, January 17th at 9:30 am in GUG 415L</span>. This will be an organizational meeting and an opportunity for everybody to learn about the different research projects currently taking place in both labs, as well as our ideas for future collaborations. Meetings will be held every other Friday after January 17th, at 9:30 am:</p>
+  <p>To foster interdisciplinary research and cross-departmental collaboration, the Spring 2020 LDP lab meetings will be run jointly with the UW's Child Language Research Lab, directed by <a href='https://sphsc.washington.edu/content/amy-e-pace'>Dr. Amy Pace</a> from the Department of Speech and Hearing Sciences. The first meeting will be held on <span>Friday, April 10th, at 9:30 AM via Zoom</span>. This will be an organizational meeting and an opportunity for everybody to learn about the different research projects currently taking place in both labs, as well as our ideas for future collaborations. Meetings will be held every other Friday after April 10th at 9:30 AM:</p>
 
   <div class='div10'></div>
 
   <ul>
     {% for event in site.data.events.lab-meetings %}
       <li>
-        <span style='text-transform:uppercase;'>{{ event.date }} @ {{ event.time }}, {{ event.place }}</span>
+        <span style='text-transform:uppercase;'>{{ event.date }} @ {{ event.time }}{% if event.place %}, {{ event.place }}{% endif %}</span>
         <br>
         {% if event.speaker %}{{ event.speaker }}<br>{% endif %}
         <i>{{ event.title }}</i>
