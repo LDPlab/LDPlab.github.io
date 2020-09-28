@@ -16,10 +16,10 @@
 - title: Participate!
   url: '#'
   dropdown:
+    - title: "Families: Current Studies"
+      url: /current-studies
     - title: "Families: Visiting the lab"
       url: /families
-    - title: "Families: How to participate"
-      url: /participate
     - title: Early education centers & schools
       url: /early-education
 

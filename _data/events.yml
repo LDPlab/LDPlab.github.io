@@ -1,31 +1,37 @@
 lab-meetings:
 
-  - date: 4/10 (Week 2)
-    time: 9:30 am
+  - date: 10/2 (Week 1)
+    time: 9:00 am
     # place:
     # speaker:
-    title: First meeting of the quarter!
+    title: Organizational meeting
 
-  - date: 4/24 (Week 4)
-    time: 9:30 am
+  - date: 10/16 (Week 3)
+    time: 9:00 am
     # place:
     # speaker:
-    title: Parental math talk in Spanish-speaking homes
+    title: TBD
 
-  - date: 5/8 (Week 6)
-    time: 9:30 am
+  - date: 10/30 (Week 5)
+    time: 9:00 am
     # place:
     # speaker:
-    title: Updates on the LENA project with English-speaking infants between 6 and 24 months
+    title: TBD
 
-  - date: 5/22 (Week 8)
-    time: 9:30 am
+  - date: 11/13 (Week 7)
+    time: 9:00 am
     place:
     # speaker:
-    title: Joint engagement in preschoolers with language impairment
+    title: TBD
 
-  - date: 6/5 (Week 10)
-    time: 9:30 am
+  - date: 11/27 (Week 9)
+    # time: 9:00 am
     # place:
     # speaker:
-    title: Literature review on fathers' language input + Literature review on cognitive and language outcomes in diverse families
+    title: NO MEETING &mdash; THANKSGIVING HOLIDAY
+
+  - date: 12/11 (Week 11)
+    time: 9:00 am
+    # place:
+    # speaker:
+    title: LING 499 and LING 600 Final Presentations
