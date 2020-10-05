@@ -16,12 +16,20 @@ permalink: /events/
 
   <ul>
     {% for event in site.data.events.lab-meetings %}
+      {% if event.date %}
       <li>
         <span style='text-transform:uppercase;'>{{ event.date }}{% if event.time %} @ {{ event.time }}{% endif %}{% if event.place %}, {{ event.place }}{% endif %}</span>
         <br>
         {% if event.speaker %}{{ event.speaker }}<br>{% endif %}
         <i>{{ event.title }}</i>
       </li>
+      {% else %}
+      <li style='list-style:none !important; margin-top: -10px'>
+        +<br>
+        {% if event.speaker %}{{ event.speaker }}<br>{% endif %}
+        <i>{{ event.title }}</i>
+      </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
