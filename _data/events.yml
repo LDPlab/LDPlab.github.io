@@ -3,37 +3,35 @@ lab-meetings:
   - date: 1/15 (Week 2)
     time: 9:00 am
     # place:
-    # speaker:
-    title: Organizational meeting
+    speaker: Organizational meeting
+    # title:
 
-  # - date: 10/16 (Week 3)
-  #   time: 9:00 am
-  #   speaker: Wenjun Ma
-  #   title: "Bilingual Learning in Infant Education Centers in Madrid: The Effects of Poverty"
+  - date: 10/29 (Week 4)
+    time: 9:00 am
+    # place:
+    speaker: Presentations by Dr. Julia Herschensohn and Lindsay Hippe 
+    # title:s
 
-  # - speaker: Lili Correa
-  #   title: Designing the new dads' study
+  - date: 2/12 (Week 6)
+    time: 9:00 am
+    # place:
+    speaker: Presentation by Dr. Libby Huber (I-LABS)
+    # title:
 
-  # - date: 10/30 (Week 5)
-  #   time: 9:00 am
-  #   # place:
-  #   speaker: Naomi Tachikawa Shapiro & Naja Ferjan Ram&#237;rez
-  #   title: Naomi and Naja will talk about two studies, one on dads' language input and one on exposure to electronic media in infancy.
+  - date: 2/26 (Week 8)
+    time: 9:00 am
+    # place:
+    speaker: Presentation by Naomi Tachikawa Shapiro
+    # title:
 
-  # - date: 11/13 (Week 7)
-  #   time: 2:30 pm
-  #   place:
-  #   # speaker:
-  #   title: This will be a joint lab meeting with Qi Cheng's Neuroplasticity & Language Lab. We will debrief after having attended the BUCLD conference.
+  - date: 3/12 (Week 10)
+    time: 9:00 am
+    # place:
+    speaker: Joint presentation by Kaveri Sheth and Zoe Deenihan
+    # title:
 
   # - date: 11/27 (Week 9)
   #   # time: 9:00 am
   #   # place:
   #   # speaker:
   #   title: Thanksgiving break&mdash;no lab meeting
-
-  # - date: 12/4 (Week 10)
-  #   time: 9:00 am
-  #   # place:
-  #   # speaker:
-  #   title: LING 499 Research Presentations
